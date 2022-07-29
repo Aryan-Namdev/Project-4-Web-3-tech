@@ -56,8 +56,17 @@ li:nth-child(1)::after{
     transform: rotate(90deg);
 }
 
+li:nth-child(1){
+    color: white;
+}
+
+li:hover{
+    COLOR: WHITE;
+    transition: 200MS ALL ease-in-out;
+}
+
 .grow-list{
-    color: azure;
+    color: rgb(180, 180, 180);
     font-family: "Poppins";
     font-size: .8rem;
     font-weight: 400;
@@ -72,6 +81,12 @@ button{
     font-family: "Poppins";
     font-size: .8rem;
     font-weight: 500;
+}
+
+button:hover{
+    background-color: azure;
+    color: black;
+    transition: 200MS ALL ease-in-out;
 }
 
 
@@ -118,4 +133,6 @@ div h1{
     vertical-align: middle;
     
 }
+
+
 
